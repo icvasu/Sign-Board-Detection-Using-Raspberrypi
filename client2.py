@@ -29,9 +29,9 @@ client= socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # machine=socket.gethostbyname('pi')
 # print(machine)
 # port=int(input("enter the port"))
-port = 2525
+port = 2328
 
-client.connect(('192.168.120.145',port))
+client.connect(('192.168.1.207',port))
 
 def reciever():
     print("Receiving the file from server")
